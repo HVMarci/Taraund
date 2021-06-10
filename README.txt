@@ -73,14 +73,26 @@ Egyéb:
  minden más karakter: nem csinál semmit, de utasításnak számít. Vigyázat! Az ékezetes karakterek néha két utasításnak számíthatnak! (Érdemes mellőzni őket)
 
 
-
 A CD tartalma:
 - README.txt: Ez a fájl
 - interpreter.exe: Windows-os futtatóprogram. Parancssorból indítható el.
 - interpreter.cpp: A futtatóprogram forráskódja. C++-ban lett megírva.
+- AUTORUN.INF: a CD számítógépbe rakásakor megnyitja ezt a fájlt.
 
 Példaprogramok:
 - hello_world.txt: Kiírja, hogy "Hello World!". Csak a vermet használja.
 - hello_world2.txt: Kiírja, hogy "Hello World!". Az osztályt is használja.
 - cat.txt: Egy program, ami mindent kiír, amit a bemenetbe bevittünk.
 - truth-machine.txt: Egy program, ami vár egy számot, ha ez 0, akkor kiírja, hogy 0, hogyha pedig 1, akkor végtelen 1-t ír ki.
+
+A CD tartalma elérhető a következő linken: https://github.com/HVMarci/Taraund
+
+
+A programok indítása:
+1. Másoljuk át az interpreter.exe fájlt a programunk mappájába.
+2. Nyissuk meg a parancssort, majd írjuk be: 'cd "mappánk_elérési_útja"' (pl: cd "C:\Users\csababacsi\programjaim")
+3. Írjuk be: 'interpreter programunk_fájlneve' (pl: interpreter hello_world.txt)
+4. A programunk lefutott. Hogyha áll és nem csinál semmit, akkor valószínűleg bemenetre vár, ilyenkor írjuk be a bevitendő adatokat, majd üssünk entert. (Az entert és a szóközöket is megkapja a programunk bemenetként!)
+
+
+Visszajelzést és programokat a horvath.varga.marton@gmail.com email címre lehet küldeni. (Nagyon kíváncsi vagyok a programokra!)
