@@ -82,6 +82,18 @@ void movePM(uint32_t lineCount, uint32_t lineLength) {
 }
 
 void reverseStack(stack<int32_t> *s) {
+	int i = 0, size = s->size();
+	int32_t *tmp = new int32_t[size];
+	while (!s->empty()) {
+		tmp[i++] = s->top();
+		s->pop();
+	}
+
+	for (i = 0; i < size; i++) s->push(tmp[i]);
+
+	delete[] tmp;
+
+	/* Régi nem működő megoldás (ugyanúgy töltöttem vissza az eredeti stack-et, ahogy volt.
 	stack<int32_t> tmp;
 	while (!s->empty()) {
 		tmp.push(s->top());
@@ -91,6 +103,7 @@ void reverseStack(stack<int32_t> *s) {
 		s->push(tmp.top());
 		tmp.pop();
 	}
+	*/
 }
 
 

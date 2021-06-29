@@ -75,7 +75,7 @@ Egyéb:
 
 A CD tartalma:
 - README.txt: Ez a fájl
-- interpreter.exe: Windows-os futtatóprogram. Parancssorból indítható el.
+- interpreter.exe: Windows-os futtatóprogram. Parancssorból indítható el. VIGYÁZAT!! Az eredeti futtatóprogramban nem működik az 'r' (verem megfordítása) parancs! Ezért erősen ajánlom az újabb verzió letöltését!
 - interpreter.cpp: A futtatóprogram forráskódja. C++-ban lett megírva.
 - AUTORUN.INF: a CD számítógépbe rakásakor megnyitja ezt a fájlt.
 
@@ -84,6 +84,9 @@ Példaprogramok:
 - hello_world2.txt: Kiírja, hogy "Hello World!". Az osztályt is használja.
 - cat.txt: Egy program, ami mindent kiír, amit a bemenetbe bevittünk.
 - truth-machine.txt: Egy program, ami vár egy számot, ha ez 0, akkor kiírja, hogy 0, hogyha pedig 1, akkor végtelen 1-t ír ki.
+
+Később hozzáadott példaprogramok (nem szerepelnek a CD-n):
+- fibonacci.txt: Kiírja a Fibonacci-számokat a végtelenségig.
 
 A CD tartalma elérhető a következő linken: https://github.com/HVMarci/Taraund
 
