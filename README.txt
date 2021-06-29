@@ -87,6 +87,7 @@ Példaprogramok:
 
 Később hozzáadott példaprogramok (nem szerepelnek a CD-n):
 - fibonacci.txt: Kiírja a Fibonacci-számokat a végtelenségig.
+- fib2.txt: Kiírja az első 45 Fibonacci-számot.
 
 A CD tartalma elérhető a következő linken: https://github.com/HVMarci/Taraund
 
